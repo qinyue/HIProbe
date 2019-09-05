@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8140AE3C23210F5000878C01 /* HIProbeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140AE3B23210F5000878C01 /* HIProbeWorker.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C0ABF3445CAC264D9571FF48 /* Pods_HIProbe_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBC204CE7AEEDD333FB6DB2 /* Pods_HIProbe_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		307F0038E2C11196C24022D6 /* Pods_HIProbe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIProbe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30C7511DA117D3533B1072CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30C7511DA117D3533B1072CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3321426B50963919FB257683 /* Pods-HIProbe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIProbe_Example.debug.xcconfig"; path = "Target Support Files/Pods-HIProbe_Example/Pods-HIProbe_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3DC6F369BDC93DD45D0EB170 /* Pods-HIProbe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIProbe_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HIProbe_Tests/Pods-HIProbe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HIProbe_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIProbe_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8291C91158C5D222D5DDAE99 /* HIProbe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HIProbe.podspec; path = ../HIProbe.podspec; sourceTree = "<group>"; };
+		8140AE3A23210F5000878C01 /* HIProbeWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIProbeWorker.h; sourceTree = "<group>"; };
+		8140AE3B23210F5000878C01 /* HIProbeWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIProbeWorker.m; sourceTree = "<group>"; };
+		8291C91158C5D222D5DDAE99 /* HIProbe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HIProbe.podspec; path = ../HIProbe.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B18130172B265614DE15FBB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B18130172B265614DE15FBB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CDBC204CE7AEEDD333FB6DB2 /* Pods_HIProbe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIProbe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF99CA7536784BEEEADA4660 /* Pods-HIProbe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIProbe_Tests.release.xcconfig"; path = "Target Support Files/Pods-HIProbe_Tests/Pods-HIProbe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5CB84F3C855AAECAC9CCC36 /* Pods-HIProbe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIProbe_Example.release.xcconfig"; path = "Target Support Files/Pods-HIProbe_Example/Pods-HIProbe_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 		6003F593195388D20070C39A /* Example for HIProbe */ = {
 			isa = PBXGroup;
 			children = (
+				8140AE3923210EC500878C01 /* Probe */,
 				6003F59C195388D20070C39A /* HIAppDelegate.h */,
 				6003F59D195388D20070C39A /* HIAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +189,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8140AE3923210EC500878C01 /* Probe */ = {
+			isa = PBXGroup;
+			children = (
+				8140AE3A23210F5000878C01 /* HIProbeWorker.h */,
+				8140AE3B23210F5000878C01 /* HIProbeWorker.m */,
+			);
+			path = Probe;
+			sourceTree = "<group>";
+		};
 		F3845948C3E17F3747783BBF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +206,6 @@
 				3DC6F369BDC93DD45D0EB170 /* Pods-HIProbe_Tests.debug.xcconfig */,
 				DF99CA7536784BEEEADA4660 /* Pods-HIProbe_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -392,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HIAppDelegate.m in Sources */,
+				8140AE3C23210F5000878C01 /* HIProbeWorker.m in Sources */,
 				6003F5A7195388D20070C39A /* HIViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

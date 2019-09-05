@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HIProbe (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HIProbe (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HIProbe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HIProbe: b625bf45aa8ce157b1c89f92b3619604d5cea66c
+
+PODFILE CHECKSUM: 2937cc7746a9283b2b09a273e81c901b94e25c0b
+
+COCOAPODS: 1.6.1

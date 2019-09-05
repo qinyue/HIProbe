@@ -1,0 +1,6 @@
+framework module Pods_HIProbe_Tests {
+  umbrella header "Pods-HIProbe_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
