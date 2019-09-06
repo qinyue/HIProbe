@@ -35,7 +35,7 @@ static HIAnalysisEventsLibrary* stAnalysisEventsLibrary = nil;
     if (self){
         
         NSMutableDictionary* dict = [NSMutableDictionary dictionary];
-        NSArray* paths = [[NSBundle mainBundle] pathsForResourcesOfType:@"plist" inDirectory:@"AnalysisEventMappings"];
+        NSArray* paths = [[NSBundle mainBundle] pathsForResourcesOfType:@"plist" inDirectory:@"HI_Probe"];
         for (NSString* filePath in paths) {
             NSDictionary* subDict = [NSDictionary dictionaryWithContentsOfFile:filePath];
             [dict addEntriesFromDictionary:subDict];

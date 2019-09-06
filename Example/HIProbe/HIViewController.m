@@ -7,12 +7,22 @@
 //
 
 #import "HIViewController.h"
+#import "HIProbeWorker.h"
 
 @interface HIViewController ()
+
+@property(nonatomic, strong) HIProbeWorker* worker;
 
 @end
 
 @implementation HIViewController
+
+- (HIProbeWorker *)worker{
+    if (!_worker){
+        _worker = [[HIProbeWorker alloc] init];
+    }
+    return _worker;
+}
 
 - (void)viewDidLoad
 {

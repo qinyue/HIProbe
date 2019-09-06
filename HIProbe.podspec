@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HIProbe'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HIProbe.'
+  s.summary          = 'objective-c, 买点方案'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+用户行为统计，半自动。无侵入买点方案，支持手动买点。
                        DESC
 
-  s.homepage         = 'https://github.com/hushaohua/HIProbe'
+  s.homepage         = 'https://github.com/qinyue/HIProbe'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hushaohua' => 'qinyue0306@163.com' }
   s.source           = { :git => 'https://github.com/hushaohua/HIProbe.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'HIProbe/Classes/**/*'
   
